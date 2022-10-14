@@ -19,7 +19,7 @@ The burn amount will be sent to the following address:
 ```
 terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu
 ```
-## Classic Core Development address
+## Classic Core Developer address
 
 The classic core development is currently being handled by Terra Rebels that have their [multi-sig wallet](https://www.terrarebels.net/donate) at the following address: 
 ```
