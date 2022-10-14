@@ -21,7 +21,7 @@ terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu
 ```
 ## Classic Core Development address
 
-The classic core development is currently being handled by Terra Rebels that have their multi-sig wallet at the following address: 
+The classic core development is currently being handled by Terra Rebels that have their [multi-sig wallet](https://www.terrarebels.net/donate) at the following address: 
 ```
 terra1067mhg3qwdccep2sp95cca8nmj8ds395w2rue7
 ```
