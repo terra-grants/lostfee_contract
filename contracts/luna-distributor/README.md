@@ -7,18 +7,23 @@ This is a smart contract for distribution of funds from the community pool as pe
 Consider a total transaction fee (TF) of 100 LUNC. The distribution logic is as follows:
 
 - Amount going to the community pool (CP) = 50 LUNC (50% of TF)
-- Amount reserved for core dev (CD) = 5 LUNC (5% of TF or 10% of CP)
-- Amount to be distributed for burning + airdrop (DA) = 45 LUNC (45% of TF or 90% of CP)
-- Burn amount (BA) = 35 LUNC (35% of TF or `77.78%` of DA)
-- Airdrop amount (AA) = 10 LUNC (10% of TF or `22.22%` of DA)
+- Burn amount (BA) = 35 LUNC (35% of TF or `70%` of CP)
+- Airdrop amount for dapps (AA) = 10 LUNC (10% of TF or `20%` of CP)
+- Amount distributed for classic core development (CD) = 5 LUNC (5% of TF or `10%` of CP)
 
-**The contract will only handle the distribution of the Burn Amount (BA) and Airdrop Amount (AA) in the ratio of `77.78:22.22`.**
+**The contract will only handle the distribution of the Burn Amount (BA), Airdrop Amount (AA) and Core Development Amount (CD) in the ratio of `70:20:10`.**
 
 ## Burn address
 
 The burn amount will be sent to the following address: 
 ```
 terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu
+```
+## Classic Core Development address
+
+The classic core development is currently being handled by Terra Rebels that have their multi-sig wallet at the following address: 
+```
+terra1067mhg3qwdccep2sp95cca8nmj8ds395w2rue7
 ```
 
 ## Airdrop whitelist
