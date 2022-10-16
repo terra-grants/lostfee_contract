@@ -73,6 +73,7 @@ Config can be updated only by the admin set via `InstantiateMsg`. The administra
     "update_config": {
         "admin": "terra1na854dwyp46698ylzwsdqh7fs2tcvxl9rm4feg",
         "burn_address": "terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu",
+        "developer_address": "terra1067mhg3qwdccep2sp95cca8nmj8ds395w2rue7",
         "whitelist": [{
                 "address": "terra1zw4hdq5zme37a3cvv9ad80deg54zfggxzkh3fu",
                 "protocol": "terraswap"
