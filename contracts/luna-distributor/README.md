@@ -50,6 +50,20 @@ To distribute USTC:
 ```
 {"distribute":{"denom":"uusd"}}
 ```
+### Burn The Bottom
+
+After the `Distribute` Msg is called, a tiny amount of LUNC/USTC (less than 1 LUNC/USTC), may be left behind in the contract due to floating point calculations. This tiny amount (less than 1 LUNC/USTC) can be burned using the following messages:
+
+LUNC:
+```
+{"burn_the_bottom":{"denom":"uluna"}}
+```
+USTC:
+```
+{"burn_the_bottom":{"denom":"uusd"}}
+```
+Note: `Burn The Bottom` will only work if the contract balance is less than 1 LUNC or 1 USTC, and will throw an error if the contract balance is above 1 LUNC / 1 USTC.
+
 ### UpdateConfig
 
 Config can be updated only by the admin set via `InstantiateMsg`. The administration of the contract is transferable to another account, a multisig wallet, or a governance contract. Setting the `admin` field as empty will make the contract non-updatable.
