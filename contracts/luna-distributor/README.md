@@ -33,7 +33,7 @@ If you are a Terra Classic dapp with a [TVL greater than 0](https://defillama.co
 
 You can interact with this smart contract using this **CLASSIC MAINNET** address:
 ```
-terra1t0uyuagla6ycel8f2hx7dwl5fdc4hmzle09zux
+terra1wy2zdqqs34hcdpmyqcfmnvxrje60m8z2xax5l7
 ```
 The contract has been instantiated without the `--set-signer-as-admin` flag, making it immutable (the contract cannot be migrated).
 
